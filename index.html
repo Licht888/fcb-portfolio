@@ -2,28 +2,52 @@
 
 	<head>
 		<title>A.MET | Web Developer Portfolio</title>
+		<!-- Google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Carattere&family=Roboto:wght@100&display=swap" rel="stylesheet">
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div class="container">	<!--description lang-->
-			<section id="landing">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item">
+		      	<a href="#landing" class="nav-link"> Home </a>
+		      </li>
+		      <li class="nav-item">
+		      	<a href="#gallery" class="nav-link"> Gallery </a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+
+		<div class="container-fluid">	<!--description lang-->
+			<section class="jumbotron text-center mt-3" id="landing">
 				<!--the lower the num, the bigger the font-->
 				<h1>Full Stack Web Developer</h1>
 				<!--paragraph-->
 				<p>HI! I'm Met!</p>
 				<img src="images/red.jfif">
 			</section>
-			<section id="gallery">
+			<section class="text-center" id="gallery">
 				<h2>Languages I speak</h2>
 				<!--uncontained list-->
 				<ul>
 					<!--list-->
 					<li>C++</li>
 					<li>Python</li>
+					<li>HTML</li>
+					<li>css</li>
 					<!--ordered list: "ol":1.\n2.\n3.-->
 				</ul>
 				<h2>Tools I use</h2>
@@ -32,9 +56,19 @@
 					<li>Sublime Text</li>
 					<li>Github</li>
 					<li>Google Chrome</li>
+					<li>VS code</li>
+					<li>spyder</li>
 				</ul>
 			</section>
 		</div>
+
+		<!-- JS bootstrap scripts -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 	</body>
+		<nav>
+		
+		</nav>
 
 </html>				<!--closing tag-->
